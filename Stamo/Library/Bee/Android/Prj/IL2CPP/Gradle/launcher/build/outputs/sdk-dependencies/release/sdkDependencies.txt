@@ -1,0 +1,25 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "OVRPlugin"
+  }
+  digests {
+    sha256: "\372J\234\3015\225q\322\375J\242=c+-\373\2215\272\352\023\302d\362K\224\372z\322M\321N"
+  }
+}
+library {
+  digests {
+    sha256: "\261\320!\317\264\215&\000\235\225\244\330v\252\244\036\"Lg\244\246-]\223OC\335J\023\357\206t"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 1
+}
