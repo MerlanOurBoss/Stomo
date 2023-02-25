@@ -1,0 +1,615 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity Hub\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50361
+Successfully changed project path to: D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
+D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15752] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 4112286745 [EditorId] 4112286745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15752] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 4112286745 [EditorId] 4112286745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 218.23 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Prajects/AR and VR/AR and VR/Stomo/Stamo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003930 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 193.02 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (522ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (75ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (193ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014342 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 193.02 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2336ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (1837ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (437ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (1067ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (193ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (530ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (0.5 MB). Loaded Objects now: 6660.
+Memory consumption went from 323.6 MB to 323.1 MB.
+Total: 6.392500 ms (FindLiveObjects: 0.544600 ms CreateObjectMapping: 0.517600 ms MarkObjects: 4.651300 ms  DeleteObjects: 0.677900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 432661.562831 seconds.
+  path: Assets/Model/Test.prefab
+  artifactKey: Guid(e2cf0cea718486244b7914a3700d3f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Test.prefab using Guid(e2cf0cea718486244b7914a3700d3f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b02698841e7a569c547260c99ea59b') in 1.163176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.752712 seconds.
+  path: Assets/Model/Syringe
+  artifactKey: Guid(7d4090eacfa911b48b87e2f67d6c02cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe using Guid(7d4090eacfa911b48b87e2f67d6c02cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a639cfbe607fb03a8258e961ef6f8') in 0.008656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.571339 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc083700b34b76d41fd843cd087dd38') in 0.447209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Model/Syringe/Syringe_glossiness.png
+  artifactKey: Guid(8417ea36f58340b45885bec417893a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe_glossiness.png using Guid(8417ea36f58340b45885bec417893a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81782c9cbaabe0ba15ca668f4674a06') in 0.134392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Model/Syringe/Syringe_bump.png
+  artifactKey: Guid(92a2f47c479e9f1498676c619fb47122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe_bump.png using Guid(92a2f47c479e9f1498676c619fb47122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8339c15e41fee3e9d0f5378a2ec972d') in 0.083712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Model/Syringe/Syringe_opacity.png
+  artifactKey: Guid(1125fff479dad814c91283fb4de10d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe_opacity.png using Guid(1125fff479dad814c91283fb4de10d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be55e55ef7aebbbb19984566c64f3e3') in 0.072139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Model/Syringe/Syringe_specular.png
+  artifactKey: Guid(ac6c5be6674abbf429498bdd1ddc7173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe_specular.png using Guid(ac6c5be6674abbf429498bdd1ddc7173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa8d4129626194d4cee290116fca884') in 0.098021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Model/Syringe/Syringe_diffuse.png
+  artifactKey: Guid(a99e1e6a072aa8444a08c6902c7e7f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe_diffuse.png using Guid(a99e1e6a072aa8444a08c6902c7e7f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d89981b00260b47eb349cfc3f7a31a') in 0.090635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.269345 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a697e93fea2c18bfb809232d82b426') in 0.050129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.859458 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc08661e68318957e969e77d6753d865') in 0.051208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.869427 seconds.
+  path: Assets/Model/Syringe/Materials
+  artifactKey: Guid(32823fb7f2e8f6b408c50e4a5846b81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials using Guid(32823fb7f2e8f6b408c50e4a5846b81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315ff44e367aa793584cc05605993993') in 0.012418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046361 seconds.
+  path: Assets/Model/Syringe/Materials/Syringe_diffuse.mat
+  artifactKey: Guid(a1c49b643ed3bc34bad4e4ce4c742c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/Syringe_diffuse.mat using Guid(a1c49b643ed3bc34bad4e4ce4c742c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5e7d417980664d0c380012a5ce266c') in 0.062613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.704642 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549dc2b392d863eb579f69652f2e6057') in 0.605192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.967707 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfae117236248c6f54d312d03c2b568') in 0.801760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.778466 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc1d7c8a0742a33b98021923ee5a3f3') in 0.659632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.427886 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792b476e153f950a4134f319a917a8cb') in 0.294656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.256988 seconds.
+  path: Assets/Model/Syringe/Syringe.obj
+  artifactKey: Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Syringe.obj using Guid(d1819480c5c82c649907f537f059f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e148015554ce2fdf473dd2bd0e0a24') in 0.054586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.503942 seconds.
+  path: Assets/Model/Syringe/Materials/New Material.mat
+  artifactKey: Guid(f8052c2487079ba4c932cb0b6215df56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/New Material.mat using Guid(f8052c2487079ba4c932cb0b6215df56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df294234fb5817b60748cff37205b3a2') in 0.026476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.473043 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png
+  artifactKey: Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png using Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5c1a2640c5c6589e24e0af8110209f') in 0.054298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png
+  artifactKey: Guid(945f4ecec6df62244b9ebcc363833642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png using Guid(945f4ecec6df62244b9ebcc363833642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f6af4c8b776f8e69d5761ff93dd4a') in 0.056311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineActivation.png
+  artifactKey: Guid(2887294cc7f1fe840bff6e349409648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineActivation.png using Guid(2887294cc7f1fe840bff6e349409648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0077683a717768ebcbd8b47f62ff5c2') in 0.048907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineActivation.png
+  artifactKey: Guid(359cf58d5969d1a4aad29b095c7fc338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineActivation.png using Guid(359cf58d5969d1a4aad29b095c7fc338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0ded664a551dfd672640e1ba942f24') in 0.039498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey.png
+  artifactKey: Guid(92b5e4310629b264dad0fb2cc196d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey.png using Guid(92b5e4310629b264dad0fb2cc196d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320977b53e9543593ca0d9c79fca2d6c') in 0.031629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 440.330519 seconds.
+  path: Assets/Model/Syringe/HealthPack.fbx
+  artifactKey: Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/HealthPack.fbx using Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171c90384be2d43cbbbfc5f8b96a29af') in 0.546162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.953093 seconds.
+  path: Assets/Model/Syringe/Texture
+  artifactKey: Guid(8041a830926574f4884fbd2a54f612f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture using Guid(8041a830926574f4884fbd2a54f612f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac84b772b26bee127136cee94eaf65a9') in 0.009458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.294318 seconds.
+  path: Assets/Model/Syringe/Texture/syringe_Base_Color.png
+  artifactKey: Guid(ea9564f015505e34a868c29aad14d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringe_Base_Color.png using Guid(ea9564f015505e34a868c29aad14d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e5e1e427b7bf58157dda9995ad0f4e') in 0.306468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Normal_DirectX.png
+  artifactKey: Guid(608c67d1e7dba9c40a9ba9d383324bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Normal_DirectX.png using Guid(608c67d1e7dba9c40a9ba9d383324bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3189a44c427ec45b74d13c34a9eaf98') in 0.042360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e6b89e5578de862732e7688e9cfb47') in 0.054341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Model/Syringe/Texture/syringe_Normal_DirectX.png
+  artifactKey: Guid(c75f987161923d84ba27e02c90c2cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringe_Normal_DirectX.png using Guid(c75f987161923d84ba27e02c90c2cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77448488f9af69868da8e1bf47a322a') in 0.028896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Model/Syringe/Texture/syringe_Roughness.png
+  artifactKey: Guid(f1285447cd9e1b048b72a957bb3b1365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringe_Roughness.png using Guid(f1285447cd9e1b048b72a957bb3b1365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71be76ce11d50924f1b6dc9c2df82135') in 0.027784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Model/Syringe/Texture/syringe_Metallic.png
+  artifactKey: Guid(d5cb5b1dbf26037468452a4de86e114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringe_Metallic.png using Guid(d5cb5b1dbf26037468452a4de86e114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baad6990f4a78ab3439c00731e4ce07c') in 0.016052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Model/Syringe/Texture/syringe_Height.png
+  artifactKey: Guid(9c4d9c6a86ddd444f89643bb76dcfe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringe_Height.png using Guid(9c4d9c6a86ddd444f89643bb76dcfe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86805fa6b0868ec691bdc34d1885263e') in 0.030535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Roughness.png
+  artifactKey: Guid(8d0471b8254fccb4db3a4fe2de5d4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Roughness.png using Guid(8d0471b8254fccb4db3a4fe2de5d4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3db39efc9f9a1650a3ad8d473de73d5') in 0.085064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 305.959284 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Normal_DirectX.png
+  artifactKey: Guid(608c67d1e7dba9c40a9ba9d383324bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Normal_DirectX.png using Guid(608c67d1e7dba9c40a9ba9d383324bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bc40394659dbe0f34cc9ad76559ae4') in 0.042258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.284863 seconds.
+  path: Assets/Model/Syringe/Texture/syringe_Normal_DirectX.png
+  artifactKey: Guid(c75f987161923d84ba27e02c90c2cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringe_Normal_DirectX.png using Guid(c75f987161923d84ba27e02c90c2cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d1d86433c88be5fa5ccfffc06d2e6b') in 0.051047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 446.978466 seconds.
+  path: Assets/Model/Syringe/Texture/Materials
+  artifactKey: Guid(dd9b65eef097a5a4d8ec69c6039b43df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/Materials using Guid(dd9b65eef097a5a4d8ec69c6039b43df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eb255d9dcae4abde23f8f23c3b1e53') in 0.014185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.861010 seconds.
+  path: Assets/Model/Syringe/HealthPack.fbx
+  artifactKey: Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/HealthPack.fbx using Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace49aa005f961bb6523982242e187f0') in 0.165692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.413070 seconds.
+  path: Assets/Model/Syringe/Materials/bandage1.mat
+  artifactKey: Guid(49d8c9f005701a246a71f217823e1f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/bandage1.mat using Guid(49d8c9f005701a246a71f217823e1f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce6b494339732ccb2fda835cb50a6cc') in 0.016215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Model/Syringe/Materials/energydrink_Base_Color.mat
+  artifactKey: Guid(d2b235838f4e2a64197031dab16611c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/energydrink_Base_Color.mat using Guid(d2b235838f4e2a64197031dab16611c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f89d62f60736168e3510c0e3f697552') in 0.026881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Model/Syringe/Materials/edhole.mat
+  artifactKey: Guid(2db88e2f16355bf44abd34a4de09d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/edhole.mat using Guid(2db88e2f16355bf44abd34a4de09d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ddcb5ab7906f29b4d22954641aeb9c') in 0.016573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Model/Syringe/Materials/capsule.mat
+  artifactKey: Guid(e1209c71d76c4734ca7f5037adba470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/capsule.mat using Guid(e1209c71d76c4734ca7f5037adba470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6c723442fd970c65b93fb4940cecea') in 0.031859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Model/Syringe/Materials/syringeb.mat
+  artifactKey: Guid(653e7b726a3bf3f47b0a2355adf392ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/syringeb.mat using Guid(653e7b726a3bf3f47b0a2355adf392ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328b5d83b7711340645bbe0054c02e7d') in 0.016730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Model/Syringe/Materials/pillbottle1.mat
+  artifactKey: Guid(35b94685f69513a429996eac9e113412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/pillbottle1.mat using Guid(35b94685f69513a429996eac9e113412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7dabaa685d941d32c924ed11e08a90') in 0.021892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Model/Syringe/Materials/syringe.mat
+  artifactKey: Guid(0d8748d225c7c7c449be67d0634ea29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/syringe.mat using Guid(0d8748d225c7c7c449be67d0634ea29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc91ac52e7844707c73ac66851100b9b') in 0.018554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Model/Syringe/Materials/pillbottlecap1.mat
+  artifactKey: Guid(99cda5d7cda6c7140a8225c1b404b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/pillbottlecap1.mat using Guid(99cda5d7cda6c7140a8225c1b404b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec387bf8c73abe72a2f1ecc3f9824e3') in 0.019955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Model/Syringe/Materials/medkit1.mat
+  artifactKey: Guid(9f1a0139c4400124ab148718e4e2852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Materials/medkit1.mat using Guid(9f1a0139c4400124ab148718e4e2852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b71ec91246abe9be7873e0059cfb65') in 0.029223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.408339 seconds.
+  path: Assets/Model/Syringe/HealthPack.fbx
+  artifactKey: Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/HealthPack.fbx using Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3391b83a79e041629788fc2ec8b3c7af') in 0.138501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.557455 seconds.
+  path: Assets/Model/Test.Materials/material_00.asset
+  artifactKey: Guid(5922480c652295d4aafa93e2b9d61d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Test.Materials/material_00.asset using Guid(5922480c652295d4aafa93e2b9d61d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60eda51944023c19c07eddf23e6a13f') in 0.017979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.641700 seconds.
+  path: Assets/Model/Syringe/HealthPack.fbx
+  artifactKey: Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/HealthPack.fbx using Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb66ef7a8db6964039df5328cd44fa9') in 0.132085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.959730 seconds.
+  path: Assets/Model/Syringe/HealthPack.fbx
+  artifactKey: Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/HealthPack.fbx using Guid(b70df47d28de6e34a92aa181d50e6d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4814bd59af161e941db1d096091d9bc6') in 0.195860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 262.930717 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f3877565b003e6a109f7b3db05de7c') in 0.038329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.313615 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd9a0e69a8ab2bbfde0baa9da139593') in 0.022960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.896314 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c302fcd2a0c18f77df50cec643f4ad19') in 0.020738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 469.835485 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c24268acc54e41d4cfa464537c1624c') in 0.048192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.176993 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee43e1b0c5c5533aa838e803a1ccb44') in 0.019064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.015572 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889dfe083eda35e65ef2869fa677f3af') in 0.561201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.622214 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3c1c7f2806fa6ca0c261dd09e4465b') in 0.153465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.160017 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff214a2030c22c739bf65224a1b362ce') in 0.024255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.521393 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9850200c61f518c429b2b6354b2fb023') in 0.199376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.969044 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e894b1231081b71b6546c33c3f7d3dc') in 0.067607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.067079 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bad7c49f6a0cd59a90b020996b6c24f') in 0.020984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.101006 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c6599d96634b324620918a4428771a') in 0.019415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.470422 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png
+  artifactKey: Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png using Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f928e2294ca1b097de61cb6632bdd0') in 0.132011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png
+  artifactKey: Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png using Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58ddb17172c824a88c8e36a73187ef7') in 0.057497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png
+  artifactKey: Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png using Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2d4d7c97f7a4241f295e7d3c3f3aaf') in 0.054111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png
+  artifactKey: Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png using Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5c90adf5bd08b6abe354434b4b22b2') in 0.076544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
+  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b448181fc5df1197c098c84764f2eb5a') in 0.057418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png
+  artifactKey: Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png using Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e174561e4402b7d78c3514813aad931a') in 0.052957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9809cd4c1b3483418eec64cc1f83cbe1') in 0.067287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299f8d7d3da246153ef018d61845c03a') in 0.031117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.142839 seconds.
+  path: Assets/Model/Syringe/Texture/Materials/syringe_Base_Color.mat
+  artifactKey: Guid(a079309d814454447ad8c88eb8b8e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/Materials/syringe_Base_Color.mat using Guid(a079309d814454447ad8c88eb8b8e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebf436e7a4c4dca647f26a4a80a7983') in 0.539108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.575426 seconds.
+  path: Assets/Model/Syringe/Texture/syringeb_Base_Color.png
+  artifactKey: Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Syringe/Texture/syringeb_Base_Color.png using Guid(cdd11db535ddbc6499d87f8c95168b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14b4a874b318568e27a948b5bcd211e') in 0.317730 seconds 
