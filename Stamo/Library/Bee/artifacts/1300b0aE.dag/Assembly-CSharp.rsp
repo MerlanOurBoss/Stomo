@@ -393,6 +393,7 @@
 "Assets/Scripts/CharacterControl.cs"
 "Assets/Scripts/HandPhysics.cs"
 "Assets/Scripts/HeadOpenMouth.cs"
+"Assets/Scripts/MakeInjection.cs"
 "Assets/UniGLTF/Core/Scripts/Extensions/ArrayExtensions.cs"
 "Assets/UniGLTF/Core/Scripts/Extensions/glTFExtensions.cs"
 "Assets/UniGLTF/Core/Scripts/Extensions/JsonParserExtensions.cs"

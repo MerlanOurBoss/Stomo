@@ -148,6 +148,7 @@
     <Compile Include="Assets\UniGLTF\UniHumanoid\Scripts\HumanPoseClip.cs" />
     <Compile Include="Assets\UniGLTF\UniHumanoid\Scripts\Skeleton.cs" />
     <Compile Include="Assets\UniGLTF\DepthFirstScheduler\Scheduler.cs" />
+    <Compile Include="Assets\Scripts\HeadOpenMouth.cs" />
     <Compile Include="Assets\UniGLTF\Core\Scripts\Format\ExtensionsAndExtras\glTFNode.cs" />
     <Compile Include="Assets\UniGLTF\UniJSON\Scripts\JsonSchemaValidator\JsonBoolValidator.cs" />
     <Compile Include="Assets\UniGLTF\Core\Scripts\IO\glbImporter.cs" />
@@ -173,6 +174,7 @@
     <Compile Include="Assets\UniGLTF\DepthFirstScheduler\TaskChain.cs" />
     <Compile Include="Assets\UniGLTF\Core\Scripts\Format\glTFCamera.cs" />
     <Compile Include="Assets\UniGLTF\Core\Scripts\Format\glbTypes.cs" />
+    <Compile Include="Assets\Scripts\MakeInjection.cs" />
     <Compile Include="Assets\UniGLTF\DepthFirstScheduler\Scheduler\ThreadScheduler.cs" />
     <Compile Include="Assets\UniGLTF\Core\Scripts\Format\glTF.cs" />
     <Compile Include="Assets\UniGLTF\DepthFirstScheduler\MainThreadDispatcher.cs" />
@@ -206,7 +208,6 @@
     <Compile Include="Assets\UniGLTF\Core\Scripts\Format\JsonSerializableBase.cs" />
     <Compile Include="Assets\UniGLTF\UniHumanoid\Scripts\AnimationClipUtility.cs" />
     <Compile Include="Assets\UniGLTF\UniJSON\Scripts\JsonSchemaValidator\JsonArrayValidator.cs" />
-    <Compile Include="Assets\Scripts\HeadOpenMouth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UniGLTF\Resources\Shaders\NormalMapDecoder.shader" />
