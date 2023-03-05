@@ -15,7 +15,7 @@ D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57040
+58311
 Successfully changed project path to: D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
 D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20560] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2838921852 [EditorId] 2838921852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22316] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 107182193 [EditorId] 107182193 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20560] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2838921852 [EditorId] 2838921852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22316] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 107182193 [EditorId] 107182193 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 308.46 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 1.79 ms.
+Refreshing native plugins compatible for Editor in 4469.65 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Prajects/AR and VR/AR and VR/Stomo/Stamo/Assets
@@ -67,53 +67,9 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005280 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 311.63 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.113 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2115ms)
-		BeginReloadAssembly (653ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1280ms)
-			LoadAssemblies (651ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (869ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (142ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (312ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.025473 seconds.
-Android Extension - Scanning For ADB Devices 10270 ms
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 273.29 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Package Manager log level set to [2]
+Registered in 1.326166 seconds.
