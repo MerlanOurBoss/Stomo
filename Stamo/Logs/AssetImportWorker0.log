@@ -15,7 +15,7 @@ D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55997
+58311
 Successfully changed project path to: D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
 D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Prajects/AR and VR/AR and VR/Stomo/Stamo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14416] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2989470196 [EditorId] 2989470196 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22316] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 107182193 [EditorId] 107182193 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14416] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2989470196 [EditorId] 2989470196 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22316] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 107182193 [EditorId] 107182193 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41U6M6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 182.67 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.75 ms.
+Refreshing native plugins compatible for Editor in 4469.65 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Prajects/AR and VR/AR and VR/Stomo/Stamo/Assets
@@ -67,195 +67,9 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/Unity Hub/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004542 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 169.62 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1019ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (774ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (502ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (76ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (170ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.017958 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 181.11 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Package Manager log level set to [2]
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Prajects\AR and VR\AR and VR\Stomo\Stamo\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.568 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2569ms)
-		BeginReloadAssembly (403ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (252ms)
-		EndReloadAssembly (2009ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (104ms)
-			SetupLoadedEditorAssemblies (1264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (181ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (622ms)
-				ProcessInitializeOnLoadMethodAttributes (244ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.67 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 6204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (0.5 MB). Loaded Objects now: 6662.
-Memory consumption went from 324.0 MB to 323.5 MB.
-Total: 8.341600 ms (FindLiveObjects: 0.591200 ms CreateObjectMapping: 0.576900 ms MarkObjects: 6.652500 ms  DeleteObjects: 0.519700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1126806.404560 seconds.
-  path: Assets/DURSCHLAG REV D.dae
-  artifactKey: Guid(4a1f3e09b2c701845894fe6917fbca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DURSCHLAG REV D.dae using Guid(4a1f3e09b2c701845894fe6917fbca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3b6a39d50a4002e14e7c116e7d3ae9') in 2.977793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Model/DURSCHLAG REV D.dae
-  artifactKey: Guid(4a1f3e09b2c701845894fe6917fbca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/DURSCHLAG REV D.dae using Guid(4a1f3e09b2c701845894fe6917fbca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3b6a39d50a4002e14e7c116e7d3ae9') in 1.698458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.149563 seconds.
-  path: Assets/Model/DURSCHLAG REV D.dae
-  artifactKey: Guid(4a1f3e09b2c701845894fe6917fbca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/DURSCHLAG REV D.dae using Guid(4a1f3e09b2c701845894fe6917fbca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4befef8e829202fd14ef46b8a301d8fc') in 2.058275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 362.041539 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56da6c86b95f40a3e5145d6cdf35a233') in 0.123679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
-  artifactKey: Guid(181afcea476f3634688027f8b2f1c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(181afcea476f3634688027f8b2f1c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064cd3114be3936297b2685c648f1dd8') in 0.091735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.389680 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383f22bb214d5de482d12ec9fa293a58') in 0.002824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 100.542362 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d09b9cb64f0e51e6cc21b349bbcc8b') in 0.004899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.591347 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601f5ae2e7a347c6db977c2361239cfd') in 0.002696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.812469 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d8a55049ac0efa7e28d072f386c7d1') in 0.004331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.714141 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc77684f32f460523e3004b367fcf7f6') in 0.003346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.217008 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4f72008459421b43c59f9a492a59d2') in 0.006574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 81.242647 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(81ce0ce871cbc8448a13d783a1fc0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdef8db81fbe8daaa87d0453d04ed21') in 0.003696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
-  artifactKey: Guid(181afcea476f3634688027f8b2f1c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(181afcea476f3634688027f8b2f1c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c46114ad3b282b1032ebdae4e7adb71') in 0.246877 seconds 
+Registered in 1.326166 seconds.
